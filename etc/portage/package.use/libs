@@ -1,0 +1,33 @@
+# required by app-office/libreoffice-bin-6.0.3.2::gentoo
+# required by libreoffice-bin (argument)
+>=media-libs/harfbuzz-1.7.6 icu
+
+dev-libs/boost icu python tools mpi
+
+# required by app-emulation/wine-staging-3.11::gentoo[sdl]
+# required by wine-staging (argument)
+>=media-libs/libsdl2-2.0.8-r2 haptic
+
+# required by net-vpn/libreswan-3.25::gentoo
+# required by net-misc/networkmanager-libreswan-1.2.6::gentoo
+# required by net-misc/networkmanager-libreswan (argument)
+>=dev-libs/nss-3.38 utils
+
+# required by dev-libs/libappindicator-12.10.0-r301::gentoo
+# required by kde-plasma/plasma-meta-5.12.5::gentoo[gtk,legacy-systray]
+# required by plasma-meta (argument)
+>=dev-libs/libdbusmenu-12.10.2-r2 gtk3
+
+# required by sys-boot/plymouth-0.9.3-r1::gentoo[libkms]
+# required by kde-plasma/plymouth-kcm-5.12.5::gentoo
+# required by kde-plasma/plasma-meta-5.12.5::gentoo[plymouth]
+# required by plasma-meta (argument)
+>=x11-libs/libdrm-2.4.91 libkms
+
+# required by net-misc/libteam-1.22::gentoo
+# required by net-misc/networkmanager-1.10.10::gentoo[teamd]
+# required by kde-frameworks/networkmanager-qt-5.47.0::gentoo
+# required by kde-plasma/plasma-nm-5.13.2::gentoo
+# required by plasma-nm (argument)
+>=dev-libs/libnl-3.4.0 utils
+net-libs/libsrtp openssl

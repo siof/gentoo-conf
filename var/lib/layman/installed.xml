@@ -1,0 +1,35 @@
+<repositories encoding="unicode" version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>steam-overlay</name>
+    <description>Gentoo overlay for Valve's Steam client and Steam-based games</description>
+    <homepage>https://github.com/anyc/steam-overlay</homepage>
+    <owner>
+      <email>dev@kicherer.org</email>
+      <name>Mario Kicherer</name>
+    </owner>
+    <source type="git">https://github.com/anyc/steam-overlay.git</source>
+    <feed>https://github.com/anyc/steam-overlay/commits/master.atom</feed>
+  </repo>
+  <repo priority="50" quality="experimental" status="official">
+    <name>dotnet</name>
+    <description>Experimental overlay for .NET packages.</description>
+    <homepage>https://github.com/gentoo/dotnet</homepage>
+    <owner>
+      <email>cynede@gentoo.org</email>
+      <name>Mikhail Pukhlikov</name>
+    </owner>
+    <source type="git">https://anongit.gentoo.org/git/proj/dotnet.git</source>
+    <feed>https://cgit.gentoo.org/proj/dotnet.git/atom/</feed>
+  </repo>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>brother-overlay</name>
+    <description>Brother printer and scanner software</description>
+    <homepage>https://github.com/stefan-langenmaier/brother-overlay</homepage>
+    <owner>
+      <email>stefan.langenmaier+gentoo@gmail.com</email>
+      <name>Stefan Langenmaier</name>
+    </owner>
+    <source type="git">https://github.com/stefan-langenmaier/brother-overlay.git</source>
+    <feed>https://github.com/stefan-langenmaier/brother-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

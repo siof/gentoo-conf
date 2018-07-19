@@ -1,0 +1,4 @@
+cross-mingw32/binutils -multilib
+cross-mingw32/w32api -selinux -multilib
+cross-mingw32/mingw-runtime -selinux -multilib
+cross-mingw32/gcc -sanitize -vtv -pie nopie -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

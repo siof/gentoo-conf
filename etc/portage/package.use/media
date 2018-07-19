@@ -1,0 +1,5 @@
+media-libs/avidemux-plugins aften amr fontconfig lame libsamplerate opus twolame vpx
+media-plugins/gst-plugins-meta lame libass libvisual opus taglib wavpack vpx
+media-video/obs-studio imagemagick
+media-sound/sox amr ao id3tag ladspa opus sndfile twolame
+media-libs/mlt fftw 

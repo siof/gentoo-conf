@@ -1,0 +1,4 @@
+dev-java/oracle-jdk-bin javafx jce
+dev-lang/python sqlite
+dev-qt/qtgui accessibility
+dev-qt/qtwebengine geolocation

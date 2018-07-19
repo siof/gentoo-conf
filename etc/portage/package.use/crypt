@@ -1,0 +1,6 @@
+# required by gnome-base/gnome-keyring-3.20.1::gentoo
+# required by app-crypt/libsecret-0.18.6-r1::gentoo
+# required by net-im/skypeforlinux-8.22.0.2::gentoo
+# required by skypeforlinux (argument)
+app-crypt/pinentry gnome-keyring
+

@@ -1,0 +1,1 @@
+cross-mingw32/gcc -fortran -vtv -sanitize

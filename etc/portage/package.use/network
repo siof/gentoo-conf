@@ -1,0 +1,25 @@
+net-misc/networkmanager audit connection-sharing json teamd recolvconf ofono
+
+net-im/telepathy-connection-managers gadu sip sipe steam meanwhile
+net-voip/telepathy-gabble plugins
+net-libs/telepathy-qt farstream
+# required by net-im/telepathy-connection-managers-2-r2::gentoo[meanwhile]
+# required by net-im/telepathy-connection-managers (argument)
+>=net-im/pidgin-2.13.0 meanwhile gadu
+# required by net-im/pidgin-2.13.0::gentoo[gadu]
+# required by x11-plugins/pidgin-sipe-1.23.2::gentoo
+# required by net-im/telepathy-connection-managers-2-r2::gentoo[sipe]
+# required by net-im/telepathy-connection-managers (argument)
+>=net-libs/libgadu-1.12.2 gnutls
+# required by net-im/telepathy-connection-managers-2-r2::gentoo[sipe]
+# required by net-im/telepathy-connection-managers (argument)
+>=x11-plugins/pidgin-sipe-1.23.2 telepathy
+kde-apps/ktp-accounts-kcm experimental
+www-client/firefox bindist eme-free hwaccel
+
+# required by app-emulation/wine-staging-3.11::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=net-fs/samba-4.8.3 winbind
+
+www-client/chromium -hangouts -suid

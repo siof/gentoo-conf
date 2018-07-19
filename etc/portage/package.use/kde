@@ -1,0 +1,10 @@
+kde-plasma/plasma-meta grub legacy-systray networkmanager plymouth pulseaudio
+# required by kde-plasma/plasma-nm-5.13.2::gentoo
+# required by plasma-nm (argument)
+>=kde-frameworks/networkmanager-qt-5.47.0 teamd
+
+kde-plasma/plasma-nm modemmanager openconnect teamd
+
+kde-misc/kdeconnect app
+kde-apps/dolphin-plugins git dropbox mercurial subversion
+kde-apps/kget bittorrent

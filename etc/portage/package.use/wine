@@ -1,0 +1,2 @@
+#app-emulation/wine-staging X alsa cups fontconfig gecko jpeg lcms ldap mono mp3 ncurses nls opengl perl png pulseaudio realtime run-exes sdl ssl xcomposite xml -capi -custom-cflags -dos -gphoto2 -gsm -gssapi -gstreamer -kerberos netapi -odbc openal opencl -osmesa -oss -pcap -pipelight -prelink -samba -scanner (-selinux) {-test} themes -vaapi -vkd3d vulkan -xinerama
+
